@@ -1,0 +1,12 @@
+.indexWrapper {
+    display: flex;
+    background: url('../../images/table-tennis.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btnContainer {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+}

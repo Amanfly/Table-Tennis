@@ -1,0 +1,20 @@
+.signUp_container {
+  display: flex;
+  background: url('../../images/table-tennis.jpg');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signupForm {
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 20px;
+  width: 30vw;
+  border-radius: 10px;
+}
+
+.radioWrapper {
+  display: flex;
+  justify-content: space-between;
+}

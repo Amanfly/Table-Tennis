@@ -1,0 +1,49 @@
+.match_container{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.match_left, .match_right, .match_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.match_wrapper{
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    padding: 10px;
+    width: 50%;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+}
+.match_center{
+    border: 1px solid #666;
+    border-radius: 50%;
+    padding: 5px;
+}
+.p_img{
+    height: 50px;
+    width: 50px;
+}
+.player_rank, .player_name, .p_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.match_no{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .match_container{
+        display: flex;
+        width: 100%;
+    }
+}

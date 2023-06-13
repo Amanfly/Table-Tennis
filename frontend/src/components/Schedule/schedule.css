@@ -1,0 +1,38 @@
+.btn_container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+width: 664px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+.btn_group{
+    width: 50%;
+    display: flex;
+    padding: 0;
+    justify-content:space-evenly;
+}
+
+.props.active {
+    background: #FFFFFF;
+}
+
+
+.btn_link{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    color: #ACACAC;
+}
+
+.btn_link_active{
+    color: #fff;
+    background-color: #5983E3;;
+   
+}

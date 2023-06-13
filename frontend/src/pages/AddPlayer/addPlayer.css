@@ -1,0 +1,54 @@
+.form_wrapper{
+    display: flex;
+    background: url('../../images/table-tennis.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.form_container{
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.image_con{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_preview{
+    width: 10rem;
+    text-align: center;
+}
+
+.image-button{
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#image-upload{
+    display: none;
+}
+
+.select_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13rem;
+}
+
+.select_btn{
+    width: 60%;
+}

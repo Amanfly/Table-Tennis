@@ -1,0 +1,28 @@
+.loginform_container {
+    
+    display: flex;
+    background: url('../../images/table-tennis.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginForm {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 20px;
+    width: 30vw;
+    border-radius: 10px;
+}
+.text-muted
+{
+    color: #5983E3;
+}
+.btnWrapper {
+    text-align: center;
+    padding: 10px;
+}
+
+.fPass{
+    text-align: right;
+}

@@ -1,0 +1,29 @@
+.counterContainer{
+    display: flex;
+    flex-direction: column;
+}
+    
+.middle{
+        text-align: center;
+    }
+
+.delete_icon{
+        background-color: red;
+        height: 40px;
+        display: flex;
+        width: 40px;
+        border-radius: 50%;
+    }
+.add_icon{
+        background-color: green;
+        border-radius: 50%;
+        display: flex;
+        height: 40px;
+        width: 40px;
+        border: none;}
+
+.img{
+            height: 100%;
+            width: 100%;
+        }
+

@@ -1,0 +1,24 @@
+h4{
+    margin-top: 40px;
+    position:absolute;
+    margin-left: 20px;
+}
+.tournament_info{
+    margin-top: 85px;
+    margin-left: 22px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.info_items{
+    margin: 10px 5px;
+}
+.fixtures_btn{
+    margin: 20px;
+}
+.border {
+    height: 54px;
+    border: 1
+px
+ solid #dee2e6!important;
+}
