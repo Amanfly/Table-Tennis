@@ -1,0 +1,69 @@
+version: '3'
+services:
+  djangoapp:
+    build: ./backend
+    env_file:
+      - ./.env
+    volumes:
+      - static:/var/www/staticfiles
+      - media:/src/base/media
+      - ./backend/:/src
+    ports:
+      - 8888:8888
+    expose:
+      - '8888'
+    links:
+      - mysql
+    depends_on:
+      - mysql
+  nginx:
+    container_name: ttnginx
+    image: nginx
+    restart: always
+    ports:
+      - 81:80
+      - 5000:5000
+    expose:
+      - '5000'
+      - '81'
+    volumes:
+    - ./config/nginx/conf.d:/etc/nginx/conf.d
+    - static:/src/static
+    - media:/src/media
+    depends_on:
+      - djangoapp
+    links:
+      - djangoapp
+  mysql:
+    image: 'mysql:5.7'
+    restart: 'always'
+    env_file:
+      - ./.env
+    expose:
+      - '3306'
+    ports:
+      - '3307:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DATABASE_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DATABASE_NAME}
+      MYSQL_USER: ${DATABASE_USER}
+      MYSQL_PASSWORD: ${DATABASE_PASSWORD}
+    healthcheck:
+      test: "exit 0"
+    volumes:
+      - /var/www/html/teamkamal_db:/var/lib/mysql
+  frontend:
+    build: ./frontend # dockerfile path
+    volumes:
+      - ./frontend:/src
+      - '/src/node_modules'
+    ports:
+      - 3000:3000
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+
+volumes:
+  staticfiles:
+  static:
+  media:

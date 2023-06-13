@@ -1,0 +1,32 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    height: 50px;
+}
+.navLink{
+    text-decoration: none;
+    color: #ACACAC;
+    height: 100%;
+    width: 150px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active_class{
+    border-bottom: 2px solid#5983E3;
+    color:#5983E3;
+}
+.icon{
+    margin: 7px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerwrapper
+{
+    background-color: white;
+}

@@ -1,0 +1,27 @@
+.form_wrapper{
+  
+    display: flex;
+    background: url('../../images/table-tennis.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+};
+
+
+.maxscore{
+    display: flex;
+    width: 55%;
+    align-items: center;
+}
+.type_label{
+    font-size: 0.7rem;
+}
+.left_maxscore{
+    flex: 2;
+    font-size: 0.8rem;
+}
+.right_maxscore{
+    flex: 1;
+    font-size: 0.8rem;
+}

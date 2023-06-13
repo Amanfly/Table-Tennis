@@ -1,0 +1,16 @@
+.navbar_btm{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    }
+.navBtmLink{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #666;
+    padding: 5px;
+    align-items: center;
+}

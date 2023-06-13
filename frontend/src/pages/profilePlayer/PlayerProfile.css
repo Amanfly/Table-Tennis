@@ -1,0 +1,232 @@
+
+.user-image-button {
+    color: #5983E3;
+    font-size: 2vh;
+}
+.mobile_header{
+    display: none;
+}
+.nav_mobile{
+    display: none;
+}
+.user_profile_container {
+    display: flex;
+    flex-direction: column;
+}
+.cover_background {
+    background-color: #5983E3;
+    height: 20vh;
+    border-radius: 0 0 15px 15px;
+}
+.user_details_container {
+    position: absolute;
+    top: 20%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user_profile_image {
+    
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: 25px;
+    top: 90px;
+    margin-left: 125px;
+    
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
+}
+
+.border_bottom{
+/* position: absolute; */
+margin-left: 40px;
+margin-top :470px;
+width: 500px;
+height: 40px;
+left: 50px;
+top: 375px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 22px;
+}
+
+.datas{
+    justify-content: center;
+/* position: absolute; */
+margin-left: 400px;
+width: 500px;
+height: 100px;
+left: 93px;
+top: 433px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+font-display: center;
+/* identical to box height */
+
+background: #FFFFFF;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+border-radius: 6px;
+color: #343435;
+}
+.icon{
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pD{
+    position: absolute;
+    margin-left: 300px;
+width: 120px;
+height: 200px;
+left: 182px;
+top: 90px;
+
+font-family: Nunito;
+font-style: normal;
+
+font-size: 20px;
+line-height: 40px;
+/* identical to box height */
+
+text-align: center;
+
+color: #343435;
+}
+.rest{
+    margin-left: 120px;
+    margin-top: 50px;
+    position: absolute;
+width: 300px;
+height: 200px;
+left: 50px;
+top: 237px;
+text-align: left;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 50px;
+/* identical to box height */
+
+}
+@media (max-width: 768px) {
+    .full_header{
+        display: none;
+    }
+    .mobile_header{
+        display: block;
+    }
+    .nav_mobile{
+        display: block;
+    }
+    .user_profile_image {
+    
+        position: absolute;
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+        left: 25px;
+        top: 90px;
+        
+        border: 1px solid #E2E2E2;
+        box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
+    }
+    
+    .border_bottom{
+    /* position: absolute; */
+    margin-left: 5px;
+    margin-top :250px;
+    width: 250px;
+    height: 40px;
+    left: 30px;
+    top: 375px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    }
+    
+    .datas{
+        justify-content: center;
+    /* position: absolute; */
+    margin-left: 50px;
+    width: 270px;
+    height: 67px;
+    left: 93px;
+    top: 433px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2px;
+    /* identical to box height */
+    
+    background: #c7bfbf;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+    border-radius: 6px;
+    color: #343435;
+    }
+    .icon{
+        margin: 5px;
+        height: 20px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pD{
+        margin-left: 1px;
+        position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 150px;
+    top: 90px;
+    
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #343435;
+    }
+    .hr{ width: 50px;
+    
+    }
+    .rest{
+         margin-left: 40px;
+        margin-top: 20px;
+        position: absolute;
+   
+    height: 200px;
+    left: 1px;
+    top: 170px;
+    text-align: left;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+}}
+
+
+
